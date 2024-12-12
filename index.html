@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flexbox Example</title>
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <!-- Styles CSS -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+    <body>
+        <div class="blog">
+            <section class="container">
+                <div class="blog-wrap">
+                    <h2 class="blog__heading">This is Blog</h2>
+                    <p class="blog__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In nobis alias voluptatum atque quis
+                        reiciendis voluptates, excepturi laudantium iure suscipit quas beatae explicabo incidunt
+                        corporis quam ut perferendis maiores doloremque, ipsam placeat et architecto. Commodi, enim quas
+                        sed accusantium quis sequi ex, fuga voluptatibus molestias laboriosam dolore illo. Quaerat,
+                        voluptate!
+                    </p>
+
+                    <!-- Blog list -->
+                    <div class="blog__list">
+                        <!-- Blog item 1 -->
+                        <article class="blog-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/blog-item-thumb-1.JPG"
+                                    alt="Giáng sinh 2024 và năm mới 2025 nên ăn gì?"
+                                    class="blog-item__thumb"
+                                />
+                            </a>
+                            <div class="blog-item__info">
+                                <div class="blog-item__top">
+                                    <h3 class="blog-item__title">
+                                        <a href="#!" class="blog-item__title ba-cham">
+                                            Giáng sinh 2024 và năm mới 2025 nên ăn gì?
+                                        </a>
+                                    </h3>
+                                    <div class="blog-item__user">
+                                        <a href="#!">
+                                            <img
+                                                src="./assets/img/blog-item-user-avatar-1.jpg"
+                                                alt=""
+                                                class="blog-item__user-avatar"
+                                            />
+                                        </a>
+                                        <div class="blog-item__user-info">
+                                            <div class="blog-item__user-info-top">
+                                                <p><a href="#!" class="blog-item__user-name">Tran tam</a></p>
+                                                <ion-icon
+                                                    class="blog-item__user-active-icon"
+                                                    name="checkmark-outline"
+                                                ></ion-icon>
+                                            </div>
+                                            <p class="blog-item__user-desc">Call of duty</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-item__bottom">
+                                    <div class="blog-item__live">
+                                        <ion-icon class="blog-item__live-icon" name="wifi-outline"></ion-icon>
+                                        <span class="blog-item__live-text">Live</span>
+                                    </div>
+                                    <p class="blog-item__watching">4.2k Watching</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Blog item 2 -->
+                        <article class="blog-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/blog-item-thumb-2.JPG"
+                                    alt="Nhà thờ Đức Bà rực rỡ trong đêm, người dân TPHCM đổ ra đường trước Noel"
+                                    class="blog-item__thumb"
+                                />
+                            </a>
+                            <div class="blog-item__info">
+                                <div class="blog-item__top">
+                                    <h3 class="blog-item__title">
+                                        <a href="#!" class="blog-item__title ba-cham">
+                                            Nhà thờ Đức Bà rực rỡ trong đêm, người dân TPHCM đổ ra đường trước Noel
+                                        </a>
+                                    </h3>
+                                    <div class="blog-item__user">
+                                        <a href="#!">
+                                            <img
+                                                src="./assets/img/blog-item-user-avatar-1.jpg"
+                                                alt=""
+                                                class="blog-item__user-avatar"
+                                            />
+                                        </a>
+                                        <div class="blog-item__user-info">
+                                            <div class="blog-item__user-info-top">
+                                                <p><a href="#!" class="blog-item__user-name">Tran tam</a></p>
+                                                <ion-icon
+                                                    class="blog-item__user-active-icon"
+                                                    name="checkmark-outline"
+                                                ></ion-icon>
+                                            </div>
+                                            <p class="blog-item__user-desc">Call of duty</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-item__bottom">
+                                    <div class="blog-item__live">
+                                        <ion-icon class="blog-item__live-icon" name="wifi-outline"></ion-icon>
+                                        <span class="blog-item__live-text">Live</span>
+                                    </div>
+                                    <p class="blog-item__watching">4.2k Watching</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Blog item 3 -->
+                        <article class="blog-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/blog-item-thumb-3.JPG"
+                                    alt="Cách trang trí cây thông Noel trong nhà và ngoài trời đẹp lung linh"
+                                    class="blog-item__thumb"
+                                />
+                            </a>
+                            <div class="blog-item__info">
+                                <div class="blog-item__top">
+                                    <h3 class="blog-item__title">
+                                        <a href="#!" class="blog-item__title ba-cham">
+                                            Cách trang trí cây thông Noel trong nhà và ngoài trời đẹp lung linh
+                                        </a>
+                                    </h3>
+                                    <div class="blog-item__user">
+                                        <a href="#!">
+                                            <img
+                                                src="./assets/img/blog-item-user-avatar-1.jpg"
+                                                alt=""
+                                                class="blog-item__user-avatar"
+                                            />
+                                        </a>
+                                        <div class="blog-item__user-info">
+                                            <div class="blog-item__user-info-top">
+                                                <p><a href="#!" class="blog-item__user-name">Tran tam</a></p>
+                                                <ion-icon
+                                                    class="blog-item__user-active-icon"
+                                                    name="checkmark-outline"
+                                                ></ion-icon>
+                                            </div>
+                                            <p class="blog-item__user-desc">Call of duty</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-item__bottom">
+                                    <div class="blog-item__live">
+                                        <ion-icon class="blog-item__live-icon" name="wifi-outline"></ion-icon>
+                                        <span class="blog-item__live-text">Live</span>
+                                    </div>
+                                    <p class="blog-item__watching">4.2k Watching</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Blog item 4 -->
+                        <article class="blog-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/blog-item-thumb-4.JPG"
+                                    alt="Top 10 địa điểm đón giao thừa 2024 tuyệt vời nhất thế giới"
+                                    class="blog-item__thumb"
+                                />
+                            </a>
+                            <div class="blog-item__info">
+                                <div class="blog-item__top">
+                                    <h3 class="blog-item__title">
+                                        <a href="#!" class="blog-item__title ba-cham">
+                                            Top 10 địa điểm đón giao thừa 2024 tuyệt vời nhất thế giới
+                                        </a>
+                                    </h3>
+                                    <div class="blog-item__user">
+                                        <a href="#!">
+                                            <img
+                                                src="./assets/img/blog-item-user-avatar-1.jpg"
+                                                alt=""
+                                                class="blog-item__user-avatar"
+                                            />
+                                        </a>
+                                        <div class="blog-item__user-info">
+                                            <div class="blog-item__user-info-top">
+                                                <p><a href="#!" class="blog-item__user-name">Tran tam</a></p>
+                                                <ion-icon
+                                                    class="blog-item__user-active-icon"
+                                                    name="checkmark-outline"
+                                                ></ion-icon>
+                                            </div>
+                                            <p class="blog-item__user-desc">Call of duty</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-item__bottom">
+                                    <div class="blog-item__live">
+                                        <ion-icon class="blog-item__live-icon" name="wifi-outline"></ion-icon>
+                                        <span class="blog-item__live-text">Live</span>
+                                    </div>
+                                    <p class="blog-item__watching">4.2k Watching</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Blog item 5 -->
+                        <article class="blog-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/blog-item-thumb-5.JPG"
+                                    alt="Đổ bộ thị trường trước lễ Giáng sinh, thông tươi nhập khẩu giá siêu rẻ"
+                                    class="blog-item__thumb"
+                                />
+                            </a>
+                            <div class="blog-item__info">
+                                <div class="blog-item__top">
+                                    <h3 class="blog-item__title">
+                                        <a href="#!" class="blog-item__title ba-cham">
+                                            Đổ bộ thị trường trước lễ Giáng sinh, thông tươi nhập khẩu giá siêu rẻ
+                                        </a>
+                                    </h3>
+                                    <div class="blog-item__user">
+                                        <a href="#!">
+                                            <img
+                                                src="./assets/img/blog-item-user-avatar-1.jpg"
+                                                alt=""
+                                                class="blog-item__user-avatar"
+                                            />
+                                        </a>
+                                        <div class="blog-item__user-info">
+                                            <div class="blog-item__user-info-top">
+                                                <p><a href="#!" class="blog-item__user-name">Tran tam</a></p>
+                                                <ion-icon
+                                                    class="blog-item__user-active-icon"
+                                                    name="checkmark-outline"
+                                                ></ion-icon>
+                                            </div>
+                                            <p class="blog-item__user-desc">Call of duty</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-item__bottom">
+                                    <div class="blog-item__live">
+                                        <ion-icon class="blog-item__live-icon" name="wifi-outline"></ion-icon>
+                                        <span class="blog-item__live-text">Live</span>
+                                    </div>
+                                    <p class="blog-item__watching">4.2k Watching</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Blog item 6 -->
+                        <article class="blog-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/blog-item-thumb-6.JPG"
+                                    alt="Không khí lạnh tiếp tục tăng cường rất mạnh, Hà Nội rét đỉnh điểm 10 độ"
+                                    class="blog-item__thumb"
+                                />
+                            </a>
+                            <div class="blog-item__info">
+                                <div class="blog-item__top">
+                                    <h3 class="blog-item__title">
+                                        <a href="#!" class="blog-item__title ba-cham">
+                                            Không khí lạnh tiếp tục tăng cường rất mạnh, Hà Nội rét đỉnh điểm 10 độ
+                                        </a>
+                                    </h3>
+                                    <div class="blog-item__user">
+                                        <a href="#!">
+                                            <img
+                                                src="./assets/img/blog-item-user-avatar-1.jpg"
+                                                alt=""
+                                                class="blog-item__user-avatar"
+                                            />
+                                        </a>
+                                        <div class="blog-item__user-info">
+                                            <div class="blog-item__user-info-top">
+                                                <p><a href="#!" class="blog-item__user-name">Tran tam</a></p>
+                                                <ion-icon
+                                                    class="blog-item__user-active-icon"
+                                                    name="checkmark-outline"
+                                                ></ion-icon>
+                                            </div>
+                                            <p class="blog-item__user-desc">Call of duty</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-item__bottom">
+                                    <div class="blog-item__live">
+                                        <ion-icon class="blog-item__live-icon" name="wifi-outline"></ion-icon>
+                                        <span class="blog-item__live-text">Live</span>
+                                    </div>
+                                    <p class="blog-item__watching">4.2k Watching</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- ion icon -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
