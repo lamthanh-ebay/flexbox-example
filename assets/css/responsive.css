@@ -1,0 +1,66 @@
+/* PC */
+@media screen and (min-width: 992px) {
+    .blog__list {
+        --spacing: 30px;
+        --column: 4;
+    }
+}
+
+/* Tablet & Mobile */
+@media screen and (max-width: 991.98px) {
+    .blog-item__thumb {
+        height: 150px;
+    }
+
+    .blog-item__user {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .blog__list {
+        --spacing: 24px;
+        --column: 3;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+    .blog__list {
+        --spacing: 12px;
+        --column: 2;
+    }
+
+    .blog-item {
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .blog-item__thumb {
+        height: 100px;
+    }
+
+    .blog__desc {
+        width: 90%;
+    }
+
+    .blog-item__top,
+    .blog-item__bottom {
+        padding: 8px 12px;
+    }
+
+    .blog__desc,
+    .blog-item__title {
+        font-size: 1.6rem;
+    }
+
+    .blog-item__live {
+        padding: 4px 4px;
+        border-radius: 4px;
+    }
+
+    .blog-item__live-text {
+        display: none;
+    }
+}
